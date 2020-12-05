@@ -1,0 +1,21 @@
+body{
+
+    image-resolution: 600px 800px;
+    background-color: violet;
+
+}
+
+.header{
+    background-color: grey;
+}
+
+.container{
+    margin: 7.56% auto;
+    background-color: white;
+}
+
+.col-3, .col-9{
+    margin-block: 3.14%;
+}
+
+
