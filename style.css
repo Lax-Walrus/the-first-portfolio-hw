@@ -1,21 +1,35 @@
+
 body{
-
-    image-resolution: 600px 800px;
-    background-color: violet;
-
+    background-image: url(file:///C:/Users/zinck/code/the-first-portfolio-hw/photos/pexels-vedanti-245250.jpg);
+    font-family: 'Khand', sans-serif;
+    
+    
 }
 
 .header{
-    background-color: grey;
+    background-color:#292b2c;
+    color: whitesmoke;
+    border: 3px solid black;
 }
+    
+
+   h1{
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
 
 .container{
-    margin: 7.56% auto;
-    background-color: white;
+    margin: 2.56% auto;
+    background-color: rgb(138, 136, 136);
+    border: 3px solid black;
+   
 }
 
 .col-3, .col-9{
     margin-block: 3.14%;
+    font-size: 30px;
+    font-stretch: 9%;
 }
-
 
