@@ -31,33 +31,16 @@ body{
         font-stretch: 9%;
 
 }
+/*  this controls my projects page */
+#pic1, #pic3, #pic5{
+    float:left
+}
 
+#pic2, #pic4, #pic6{
+    float: right;}
 
-@media only screen and ( max-width: 893px){
-  
-  #part1, #part2, #part3{
-    float: none;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding: 30px;
-      
-
-  }  ;
-
- 
-  }
-      
-  
-
-      
-   
-      
-
-      
- 
-
-
-
-
-    
-
+/* width at 893 and below */
+@media screen and (max-width: 893px)
+{#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+    width: 100%;
+    float:none}}
