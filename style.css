@@ -1,45 +1,35 @@
+/* background and font for all pages */
+body {
+  background-image: url(file:///C:/Users/zinck/code/the-first-portfolio-hw/photos/pexels-vedanti-245250.jpg);
 
-body{
-    background-image: url(file:///C:/Users/zinck/code/the-first-portfolio-hw/photos/pexels-vedanti-245250.jpg);
-
-    font-family: 'Khand', sans-serif;
-    
-    
+  font-family: "Khand", sans-serif;
 }
-
-.header{
-    border-bottom: 1px solid black;
+/* main header row for all pages */
+.header {
+  border-bottom: 2px solid black;
 }
-    
-
-   h1{
-        font-size: 50px;
-        font-weight: bold;
-        margin: 0 auto;
-    }
-
-
-.container{
-    margin: 2.56% auto;
-    background-color: rgb(138, 136, 136);
-    border: 3px solid black;
+/* main header text for all pages */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+/* main container for all pages */
+.container {
+  margin: 2.56% auto;
+  background-color: rgb(138, 136, 136);
+  border: 3px solid black;
 }
 /* this is for the about me page */
-    .col-3, .col-9{
-        margin-block: 3.14%;
-        font-size: 30px;
-        font-stretch: 9%;
+.col-3,
+.col-9 {
+  margin-block: 3.14%;
+  font-size: 30px;
+  font-stretch: 9%;
 }
 /*  this controls my projects page */
-#pic1, #pic3, #pic5{
-    float:left
+
+.rounded {
+  width: 350px;
+  height: 350px;
 }
-
-#pic2, #pic4, #pic6{
-    float: right;}
-
-/* width at 893 and below */
-@media screen and (max-width: 893px)
-{#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
-    width: 100%;
-    float:none}}
