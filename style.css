@@ -4,12 +4,13 @@ body {
 
   font-family: "Khand", sans-serif;
 }
-/* main header row for all pages */
+/* main header row and border bottem for all pages */
 .header {
   border-bottom: 2px solid black;
 }
 /* main header text for all pages */
 h1 {
+  margin-top: 40px;
   font-size: 50px;
   font-weight: bold;
   margin: 0 auto;
@@ -30,6 +31,8 @@ h1 {
 /*  this controls my projects page */
 
 .rounded {
+  border: 2px solid black;
+  box-shadow: 2px 2px rgb(85, 83, 83);
   width: 350px;
   height: 350px;
 }
