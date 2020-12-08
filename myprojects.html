@@ -16,26 +16,28 @@
 </head>
 
 <body>
-
+    <!-- nav bar contronl and links -->
+    <!-- controls my name on navbar and has link to my who am i page -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="file:///C:/Users/zinck/code/the-first-portfolio-hw/index.html#">Kevin Lyons</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
         </button>
-
+        <!-- nav bar who am i link -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="file:///C:/Users/zinck/code/the-first-portfolio-hw/index.html#">Who am I
                         <span class="sr-only">(current)</span></a>
                 </li>
+                <!-- nav bar my projects link (current page) -->
                 <li class="nav-item active">
                     <a class="nav-link" href="file:///C:/Users/zinck/code/the-first-portfolio-hw/myprojects.html">My
                         projects <span class="sr-only">(current)</span>
                     </a>
                 </li>
-
+                <!-- nav bar reach me -->
                 <li class="nav-item">
                     <a class="nav-link" href="file:///C:/Users/zinck/code/the-first-portfolio-hw/reachme.html?#">Reach
                         Me</a>
@@ -43,11 +45,14 @@
             </ul>
         </div>
     </nav>
+
+    <!-- main container 2nd level background -->
     <main class="container">
 
+        <!-- header and header text -->
         <header class="header">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mt-3">
                     <h1 class="text-center">
                         <p> My Projects </p>
                     </h1>
@@ -55,51 +60,51 @@
             </div>
         </header>
 
+        <!-- photo gallery of my projects place holders installed currently -->
+        <section class="row">
 
-        <div class="row">
-            <div class="col-6-md mb-3 mt-3 mx-auto text-right">
-                <img src="http://placekitten.com/400/400" class="rounded" id="pic1" alt="...">
+            <!-- photo 1 on left side -->
+            <article class="col-6-md mb-3 mt-3 mx-auto text-right">
+                <img src="http://placekitten.com/400/400" class="rounded" id="pic1" alt="kitten place holder">
 
+                <!-- photo 2 on left side -->
+                <section class="row">
+                    <article class="col-12-md mb-3 mt-3 mx-auto text-right">
+                        <img src="http://placekitten.com/400/400" class="rounded" id="pic2" alt="kitten place holder">
 
-                <div class="row">
-                    <div class="col-12-md mb-3 mt-3 mx-auto text-right">
-                        <img src="http://placekitten.com/400/400" class="rounded" id="pic5" alt="...">
+                        <!-- photo 3 on left side -->
+                        <section class="row">
+                            <article class="col-12-md mb-3 mt-3 mx-auto text-right">
+                                <img src="http://placekitten.com/400/400" class="rounded" id="pic3"
+                                    alt="kitten place holder">
+                            </article>
+                        </section>
+                    </article>
 
-
-                        <div class="row">
-                            <div class="col-12-md mb-3 mt-3 mx-auto text-right">
-                                <img src="http://placekitten.com/400/400" class="rounded" id="pic3" alt="...">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-6-md mb-3 mt-3 mx-auto text-left">
-                <img src="http://placekitten.com/400/400" class="rounded" id="pic1" alt="...">
-
-                <div class="row">
-                    <div class="col-12-md mb-3 mt-3 mx-auto text-left">
-                        <img src="http://placekitten.com/400/400" class="rounded" id="pic5" alt="...">
-
-                        <div class="row">
-                            <div class="col-12-md mr-3 mt-3 mx-auto text-left">
-                                <img src="http://placekitten.com/400/400" class="rounded" id="pic3" alt="...">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
+                </section>
             </article>
+            <!-- photo 4 on right side -->
+            <article class="col-6-md mb-3 mt-3 mx-auto text-left">
+                <img src="http://placekitten.com/400/400" class="rounded" id="pic1" alt="kitten place holder">
 
+                <!-- photo 5 on right side -->
+                <section class="row">
+                    <article class="col-12-md mb-3 mt-3 mx-auto text-left">
+                        <img src="http://placekitten.com/400/400" class="rounded" id="pic5" alt="kitten place holder">
 
-
-
+                        <!-- photo 6 on right side -->
+                        <section class="row">
+                            <article class="col-12-md mr-3 mt-3 mx-auto text-left">
+                                <img src="http://placekitten.com/400/400" class="rounded" id="pic3"
+                                    alt="kitten place holder">
+                            </article>
+                        </section>
+                    </article>
+                </section>
+            </article>
+        </section>
     </main>
+    <!-- boot strap links -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
