@@ -2,9 +2,9 @@
 
 # Kevin Lyons Portfolio
 
-![alt text](C:\Users\zinck\code\the-first-portfolio-hw\photos\Portfolio screenshot.png)
+![alt text](https://raw.githubusercontent.com/Lax-Walrus/the-first-portfolio-hw/main/photos/Portfolio%20screenshot.png)
 
-[ click here](https://raw.githubusercontent.com/Lax-Walrus/the-first-portfolio-hw/main/photos/Portfolio%20screenshot.png) to view my deployed link.
+[ click here](https://lax-walrus.github.io/the-first-portfolio-hw/) to view my deployed link.
 
 ## Hello,
 
