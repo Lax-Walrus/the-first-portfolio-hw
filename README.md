@@ -2,7 +2,7 @@
 
 # Kevin Lyons Portfolio
 
-![alt text](https://raw.githubusercontent.com/Lax-Walrus/the-first-portfolio-hw/main/photos/Portfolio%20screenshot.png)
+![alt text](https://github.com/Lax-Walrus/the-first-portfolio-hw/blob/main/photos/updated%20screenshot%20of%20landing%20page.png?raw=true)
 
 [ click here](https://lax-walrus.github.io/the-first-portfolio-hw/) to view my deployed link.
 
