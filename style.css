@@ -21,6 +21,11 @@ h1 {
   border: 3px solid black;
 }
 /* this is for the about me page */
+.portfolioimg {
+  float: left;
+  margin-right: 5px;
+}
+
 .col-3,
 .col-9,
 .col-12 {
