@@ -4,6 +4,11 @@ body {
 
   font-family: "Khand", sans-serif;
 }
+
+a {
+  color: rgba(27, 26, 26, 0.918);
+}
+
 /* main header row and border bottem for all pages */
 .header {
   border-bottom: 2px solid black;
