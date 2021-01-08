@@ -8,6 +8,17 @@
 
 ## Hello,
 
-welcome to my first portfolio. In this project we utilized our knowledge of html, css and bootstrap. you can see I created a nav bar thumbnail and form using the bootstrap assets and have an area on my projects page to show some of my work as I create more cool stuff.
+this is a continuation of my first portfolio
 
-During this project I started out by creating page by page and using bootstraps grid system. I found this very helpful in centering and aligning text and images, and was able to reuse a css style sheet since most of bootstrap components have the ability to be adjusted via inline.
+### features
+
+- Projects that stood out to me during my journey through class
+- Responsive design that works on mobile
+- functional links to my github, linkedin, resume, email
+- about me section to "get to know me"
+
+---
+
+#### equipment
+
+I used html, css and bootstrap for this portfoli.
